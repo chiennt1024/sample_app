@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.2'
 
+gem 'aws-sdk-s3'
+gem 'mini_magick'
+gem 'image_processing'
+gem 'active_storage_validations'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'faker'
